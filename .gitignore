@@ -1,0 +1,24 @@
+
+.venv/
+__pycache__/
+*.pyc
+
+# Dataset files
+datasets/
+dataset/
+
+# Model weights
+*.pt
+*.pth
+
+# Test videos
+test_videos/
+videos/
+
+# Training outputs
+runs/
+experiments/
+
+# Temporary files
+*.log
+.DS_Store

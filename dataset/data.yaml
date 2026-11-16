@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['SpeedportSmart1']
+
+roboflow:
+  workspace: router-inno
+  project: router-tudm6
+  version: 1
+  license: Private
+  url: https://universe.roboflow.com/router-inno/router-tudm6/dataset/1

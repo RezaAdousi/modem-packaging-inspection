@@ -1,24 +1,62 @@
-
+# ==============================
+# Python
+# ==============================
 .venv/
+venv/
 __pycache__/
-*.pyc
+*.py[cod]
+*.cache
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
 
-# Dataset files
-datasets/
-dataset/
 
+# ==============================
+# IDE
+# ==============================
+.vscode/
+
+
+# ==============================
+# Dataset
+# ==============================
+# Ignore actual dataset files, but keep dataset/data.yaml
+/dataset/train/
+/dataset/valid/
+/dataset/test/
+/dataset/*.mp4
+/dataset/*.avi
+
+# Ignore the unused datasets directory
+/datasets/
+
+
+# ==============================
 # Model weights
-*.pt
-*.pth
+# ==============================
+# Ignore pretrained weights downloaded to the project root.
+# Experiment weights inside experiments/ remain trackable.
+/*.pt
+/*.pth
 
-# Test videos
-test_videos/
-videos/
 
+# ==============================
 # Training outputs
-runs/
-experiments/
+# ==============================
+/runs/
 
-# Temporary files
+
+# ==============================
+# Videos
+# ==============================
+/test_videos/
+/videos/
+
+
+# ==============================
+# Temporary and system files
+# ==============================
 *.log
+*.tmp
 .DS_Store
+Thumbs.db

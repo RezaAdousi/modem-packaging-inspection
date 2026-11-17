@@ -1,0 +1,17 @@
+{
+    "experiment_number": 5,
+    "experiment_name": "exp005_train_detective_yolo26m",
+    "dataset_dir": "/run/media/ali/Data/Dev/Python/Projects/train_detective/my_dataset2",
+    "dataset_yaml": "/run/media/ali/Data/Dev/Python/Projects/train_detective/modem-packaging-inspection-starter/experiments/exp005_train_detective_yolo26m/dataset.yaml",
+    "model": "yolo26m.pt",
+    "epochs": 80,
+    "image_size": 640,
+    "batch_size": 12,
+    "patience": 20,
+    "optimizer": "auto",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0005,
+    "device": 0,
+    "workers": 12,
+    "seed": 42
+}

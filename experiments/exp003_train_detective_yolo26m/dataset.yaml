@@ -1,0 +1,12 @@
+train: /run/media/ali/Data/Dev/Python/Projects/train_detective/my_dataset2/train/images
+val: /run/media/ali/Data/Dev/Python/Projects/train_detective/my_dataset2/valid/images
+test: /run/media/ali/Data/Dev/Python/Projects/train_detective/my_dataset2/test/images
+nc: 1
+names:
+- Router
+roboflow:
+  workspace: router-inno
+  project: router-tudm6
+  version: 1
+  license: Private
+  url: https://universe.roboflow.com/router-inno/router-tudm6/dataset/1
